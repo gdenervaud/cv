@@ -1,0 +1,724 @@
+{
+  "firstname": "Gilles",
+  "lastname": "Dénervaud",
+	"phone": "",
+	"email": "dengi@duck.com",
+	"address": "Geneva, Switzerland",
+	"locationUrl": "https://www.google.ch/maps/place/Geneva/@46.2050241,6.1089833",
+	"nationality": "Swiss",
+	"birthday": "12 Sep 1973",
+	"maritalStatus": "living in partnership",
+	"nbOfChildren": 4,
+	"linkedin": "https://www.linkedin.com/in/denervaud",
+	"github": "https://github.com/gdenervaud",
+  "jobTitle": "job.title",
+  "jobDescription": "job.description",
+  "summary": "summary",
+	"pdf": "pdf",
+	"skills": [
+		[
+			{
+				"keywords": ["User Experience", "Interface"],
+				"level": 4
+			},
+			{
+				"keywords": ["Sketch/Balsamiq Mockups"],
+				"level": 3
+			},
+			{
+				"keywords": ["Accessibility", "WCAG/S508"],
+				"level": 3
+			},
+			{
+				"keywords": ["Security", "OWASP"],
+				"level": 3
+			}
+		],
+		[
+			{
+				"keywords": ["HTML5", "CSS3", "Bootstrap"],
+				"level": 5
+			},
+			{
+				"keywords": ["Typescript", "Javascript (ES12)"],
+				"level": 5
+			},
+			{
+				"keywords": ["React", "Redux/RxJs/MobX"],
+				"level": 4.5
+			},
+			{
+				"keywords": ["Less", "Sass"],
+				"level": 3
+			},
+			{
+				"keywords": ["JSON", "JSON-LD", "RESTfull"],
+				"level": 5
+			},
+			{
+				"keywords": ["Node.js", "Webpack", "Npm"],
+				"level": 4
+			}
+		],
+		[
+			{
+				"keywords": ["Java/Spring Boot", "C#/C++/C"],
+				"level": 3.5
+			},
+			{
+				"keywords": ["Python", "FastAPI"],
+				"level": 3
+			},
+			{
+				"keywords": ["NoSQL/GraphQL/Elasticsearch"],
+				"level": 3
+			},
+			{
+				"keywords": ["OAuth 2.0", "OIDC", "Keycloak"],
+				"level": 3.5
+			}
+		],
+		[
+			{
+				"keywords": ["Git", "GitHub", "TFVC", "SVN"],
+				"level": 4
+			},
+			{
+				"keywords": ["TDD", "Jest", "Puppeteer"],
+				"level": 3
+			},
+			{
+				"keywords": ["GitLab CI/CD", "Docker"],
+				"level": 3.5
+			},
+			{
+				"keywords": ["ETL", "Ansible", "AWX"],
+				"level": 4
+			}
+		],
+		[
+			{
+				"keywords": ["Agile/Scrum/Kanban/BDD"],
+				"level": 4
+			},
+			{
+				"keywords": ["DRY SOLID KISS", "YAGNI"],
+				"level": 3.5
+			},
+			{
+				"keywords": ["Jira", "TFS", "Taiga", "Slack"],
+				"level": 4
+			}
+		]
+	],
+	"softSkills": [
+		{
+			"keywords": ["curiosity", "creativity"],
+			"level": 4
+		},
+		{
+			"keywords": ["listening skills"],
+			"level": 5
+		},
+		{
+			"keywords": ["autonomous", "responsible"],
+			"level": 4
+		},
+		{
+			"keywords": ["stress resistance"],
+			"level": 5
+		}
+	],
+	"languages": [
+		{
+			"keywords": ["french"],
+			"level": 5
+		},
+		{
+			"keywords": ["english"],
+			"level": 3.5
+		},
+		{
+			"keywords": ["german"],
+			"level": 2
+		}
+	],
+	"interests": [
+		"sailing",
+		"snowboarding",
+		"travel",
+		"history"
+	],
+	"experience": [
+		{
+			"title": "Senior Software Engineer Full-Stack",
+			"link": {
+				"name": "Human Brain Project",
+				"url": "https://www.humanbrainproject.eu",
+				"logo": "hbp-logo"
+			},
+			"description": ["roles.hbp.summary.line_1"],
+			"sections": {
+				"experiences": [
+					{
+						"startDate": "Jun 2021",
+						"endDate": "Dec 2023",
+						"company":  {
+							"name": "EBRAINS",
+							"url": "https://www.ebrains.eu",
+							"logo": "ebrains-logo"
+						}
+					},
+					{
+						"startDate": "Nov 2017",
+						"endDate": "Mai 2021",
+						"company":  {
+							"name": "",
+							"url": "https://www.epfl.ch",
+							"logo": "epfl-logo"
+					}
+					}
+				],
+				"description": [
+					"roles.hbp.description.line_1",
+					"roles.hbp.description.line_2",
+					"roles.hbp.description.line_3",
+					"roles.hbp.description.line_4",
+					"roles.hbp.description.line_5"
+				]
+			}
+		},
+		{
+			"startDate": "Feb 2016",
+			"endDate": "Oct 2017",
+			"title": "Living in Cotonou, travelling accross West Africa"
+		},
+		{
+			"startDate": "Jun 2010",
+			"endDate": "Jan 2016",
+			"title": "Senior Software Engineer",
+			"company":  {
+				"name": "SunGard",
+				"url": "https://www.fisglobal.com",
+				"logo": "fis-logo"
+			},
+			"description": [
+				"roles.sungard.description.line_1",
+				"roles.sungard.description.line_2",
+				"roles.sungard.description.line_3",
+				"roles.sungard.description.line_4",
+				"roles.sungard.description.line_5",
+				"roles.sungard.description.line_6",
+				"roles.sungard.description.line_7"
+			]
+		},
+		{
+			"startDate": "Apr 2007",
+			"endDate": "Jul 2009",
+			"title": "Software Engineer",
+			"company":  {
+				"name": "New Access",
+				"url": "https://www.fnz.com/",
+				"logo": "fnz-logo"
+			},
+			"description": [
+				"roles.nwa.description.line_1",
+				"roles.nwa.description.line_2",
+				"roles.nwa.description.line_3",
+				"roles.nwa.description.line_4"
+			]
+		},
+		{
+			"startDate": "Oct 1999",
+			"endDate": "Feb 2007",
+			"title": "Software Engineer",
+			"company":  {
+				"name": "Thomson Reuters",
+				"url": "https://www.thomsonreuters.com",
+				"logo": "thomson_reuters-logo"
+			},
+			"description": [
+				"roles.reuters.description.line_1",
+				"roles.reuters.description.line_2",
+				"roles.reuters.description.line_3",
+				"roles.reuters.description.line_4",
+				"roles.reuters.description.line_5",
+				"roles.reuters.description.line_6"
+			]
+		},
+		{
+			"startDate": "Nov 1998",
+			"endDate": "Sep 1999",
+			"title": "Software Engineer Consultant",
+			"company": {
+				"name": "NetPower"
+			},
+			"description": [
+				"roles.netpower.description.line_1"
+			]
+		}
+	],
+	"education": [
+		{
+			"year": 1997,
+			"title": "Computer Sciences",
+			"semesters": 4,
+			"issuer": {
+				"name": "",
+				"url": "https://www.epfl.ch",
+				"logo": "epfl-logo"
+			}
+		},
+		{
+			"year": 1995,
+			"title": "Microengineering Sciences",
+			"semesters": 2,
+			"issuer": {
+				"name": "",
+				"url": "https://www.epfl.chm",
+				"logo": "epfl-logo"
+			}
+		},
+		{
+			"year": 1993,
+			"title": "Scientific Swiss Maturity",
+			"issuer": {
+				"name": "Collège St-Michel",
+				"url": "http://www.csmfr.ch"
+			}
+		}
+	],
+	"certifications": [
+		{
+			"year": 2010,
+			"title": "Sun Certified Java Programmer",
+			"issuer": {
+				"name":"Sun",
+				"url": "https://education.oracle.com",
+				"logo": "java-logo"
+			}
+		},
+		{
+			"year": 2010,
+			"title": "**MCPD** & **MCTS** Microsoft Certified Professional Developer",
+			"issuer": {
+				"name":"Microsoft",
+				"url": "https://www.microsoft.com",
+				"logo": "microsoft-logo"
+			}
+		}
+	],
+	"otherSkills": [
+		"Accessibility Conformance Testing ACT",
+		"Accessibility",
+		"aesthetics",
+		"Agile Methodologies",
+		"Ansible",
+		"AJAX",
+		"Amazon Web Services",
+		"Android",
+		"Angular.JS",
+		"Angular",
+		"AngularCLI",
+		"AngularJS",
+		"Ansible",
+		"Apache Mesos",
+		"Apache Solr",
+		"Apache Tomcat",
+		"Apple",
+		"Apsys",
+		"ArangoDB",
+		"ASP.NET",
+		"Aspects",
+		"AWS",
+		"AWX",
+		"axure",
+		"Azure",
+		"Babel",
+		"Bachelor",
+		"back-end",
+		"Backbone.JS",
+		"backend",
+		"Balsamiq",
+		"Bamboo",
+		"bank",
+		"Baobab",
+		"Bash",
+		"Batch",
+		"behavior-driven",
+		"Bitbucket",
+		"blazegraph",
+		"Bootstrap",
+		"Bower",
+		"BUS",
+		"C#",
+		"C++",
+		"C",
+		"CakePHP",
+		"Canvas",
+		"cassandra",
+		"CDN",
+		"Chocolatey",
+		"CircleCI",
+		"Closure",
+		"Cloud",
+		"Cypress",
+		"CMS",
+		"coaching",
+		"codeship",
+		"Confluence",
+		"Connect",
+		"consulting",
+		"Continuous Delivery",
+		"Continuous Deployment",
+		"Continuous Integration",
+		"Cordova",
+		"coreOS",
+		"CORS",
+		"CQRS",
+		"Command Query Responsibility Segregation",
+		"Cross-Browser",
+		"CSRF",
+		"CSS3",
+		"Cucumber",
+		"Cypher",
+		"D3.js",
+		"database shard",
+		"database",
+		"dbx",
+		"DDD",
+		"Domain-driven design",
+		"DeckTape",
+		"Dependency Injection",
+		"Design Patterns",
+		"design",
+		"developer",
+		"dev/ops",
+		"development engineer",
+		"Django",
+		"Docker",
+		"drone.io",
+		"Drupal",
+		"DRY",
+		"ECMAScript6",
+		"EJB",
+		"Elastic Search",
+		"Elasticsearch",
+		"Electron",
+		"Ember.js",
+		"EmberJS",
+		"Entity framework",
+		"Enzyme",
+		"ES6",
+		"ESB",
+		"Espresso",
+		"ETL",
+		"Eureka",
+		"express",
+		"ExtJS",
+		"FastAPI",
+		"finance",
+		"Financial Markets",
+		"fintech",
+		"Firebase",
+		"Flask",
+		"flotr",
+		"flux",
+		"Foundation",
+		"frameworks",
+		"front-end",
+		"frontend",
+		"Feature Envy",
+		"Full-Stack",
+		"FullStack",
+		"Gantter",
+		"GeoJson",
+		"GeoNode",
+		"Git",
+		"GitHub",
+		"Gitlab-CI",
+		"GitLab",
+		"Google AdSense",
+		"Google AdWords",
+		"Google Analytics",
+		"Google Guice",
+		"Google Tag Manager",
+		"Gradle",
+		"Grafana",
+		"GraphQL",
+		"GRASP",
+		"Gremlin",
+		"Grunt",
+		"Gulp",
+		"guru",
+		"hadoop",
+		"HAML",
+		"Handlebars",
+		"HATEOAS",
+		"hbase",
+		"Heroku Postgres PostgreSQL",
+		"Hibernate",
+		"highchart",
+		"Homebrew",
+		"HTML5",
+		"Immutable",
+		"implementation",
+		"Indigo Studio",
+		"insurance",
+		"Intellij",
+		"invision",
+		"Ionic",
+		"IOS",
+		"J2EE",
+		"Jackson",
+		"Jaeger UI",
+		"JanusGraph",
+		"Jasmine",
+		"Jasper",
+		"Java",
+		"JavaBeans",
+		"JavaFX",
+		"Javascript",
+		"JBoss",
+		"Jekill",
+		"jekyll",
+		"JFrog",
+		"Jenkins",
+		"Jersey",
+		"Jest",
+		"Jira",
+		"Jongo",
+		"JPA",
+		"jQuery",
+		"JSF",
+		"JSON-LD",
+		"JSON",
+		"jsonp",
+		"JSP",
+		"Jupyter notebooks",
+		"k2",
+		"kafka",
+		"Kanban",
+		"Kantu",
+		"Karma",
+		"Kendo",
+		"KISS",
+		"Kibana",
+		"Knockout",
+		"Kubernetes",
+		"LaaS",
+		"Laravel",
+		"LDAB",
+		"lead",
+		"Lean LSD",
+		"LESS",
+		"LINQ",
+		"Linux",
+		"lite server",
+		"Liteserver",
+		"Lodash",
+		"Lucene",
+		"Macros",
+		"Magento",
+		"Mapping",
+		"MapReduce",
+		"MariaDB",
+		"Market Map",
+		"Markly",
+		"Master",
+		"Material Design",
+		"Maven",
+		"Mercurial",
+		"mermaid",
+		"Meteor",
+		"Microsoft SQL Server",
+		"middleman",
+		"Mobile Applications",
+		"mobx",
+		"Mocha",
+		"Mockups",
+		"modernizr",
+		"MongoDB",
+		"moogose",
+		"monoid",
+		"Moqups",
+		"morgan",
+		"Ms Project",
+		"mustache",
+		"MVC",
+		"MySql",
+		"Native",
+		"Neo4j",
+		"Nexus",
+		"Nginx",
+		"Node.js",
+		"NodeJS",
+		"NoSQL",
+		"npm",
+		"NService",
+		"NuGet",
+		"OAuth2",
+		"OData",
+		"Ojective-C",
+		"Olympic",
+		"OOP",
+		"OpenID",
+		"OpenLayers",
+		"OpenShift",
+		"OpenStack",
+		"OR",
+		"Oracle APEX",
+		"OrientDB",
+		"ORM",
+		"OSX",
+		"OWASP Security",
+		"PaaS",
+		"PhD",
+		"PHP",
+		"plantuml",
+		"Playwright",
+		"Play Framework",
+		"PL-SQL",
+		"PLSQL",
+		"Polyfill",
+		"Polymer",
+		"Portainer.io",
+		"PowerShell",
+		"Prestashop",
+		"Process Activation Service",
+		"Progressive Web App (PWA)",
+		"protobuf",
+		"Protractor",
+		"Puppet",
+		"Puppeteer",
+		"Purify",
+		"Python",
+		"QUnit",
+		"Raphael",
+		"Rational",
+		"Razor",
+		"RDF Schema",
+		"RDF Triplestore",
+		"RDF/OWL",
+		"React",
+		"RocksDB",
+		"realtime data",
+		"redis",
+		"Redux",
+		"Require.JS",
+		"RequireJS",
+		"research",
+		"Responsive Design",
+		"REST",
+		"Reuters",
+		"Rhino",
+		"rich client",
+		"riot.js",
+		"riotjs",
+		"Ruby on Rails",
+		"RxJS",
+		"S2Geometry",
+		"SaaS",
+		"SaltStack",
+		"SAML",
+		"Sass",
+		"Scala",
+		"SCM",
+		"Scrum",
+		"Scrumban",
+		"Search engine optimization SEO",
+		"Section 508 Standards",
+		"Selenium",
+		"semantic scaffolding",
+		"semantic web",
+		"semaphore",
+		"SEO",
+		"SGBDR",
+		"SHACL",
+		"Shell Script",
+		"shippable",
+		"single-page application SPA",
+		"single page application SPA",
+		"Sketch",
+		"Slack",
+		"SOAP",
+		"Software Development",
+		"Solaris",
+		"SOLID",
+		"Sonar",
+		"sonarqube sonarsource",
+		"SonarQube",
+		"Spark",
+		"SPARQL",
+		"Spring",
+		"Springboot",
+		"SQL Server Reporting Services SSRS",
+		"SQL",
+		"Storm",
+		"Struts",
+		"Subversion",
+		"SVG",
+		"Swift",
+		"Swing",
+		"SWT",
+		"Symfony",
+		"T-SQL",
+		"Taiga",
+		"Talend",
+		"TDA",
+		"Tell, Don’t Ask",
+		"Team Foundation Server",
+		"Telerik UI",
+		"Test Driven Development",
+		"testing",
+		"tether.io",
+		"TFS",
+		"TFVC",
+		"Three.js",
+		"TingoDB",
+		"TLS",
+		"Tornado",
+		"Travis",
+		"Trello",
+		"Typescript",
+		"UML",
+		"Unix",
+		"User Acceptance Testing UAT",
+		"User Experience",
+		"User Interface",
+		"UX",
+		"varnish",
+		"VBA",
+		"Visual Studio",
+		"Vue.js",
+		"VueJS",
+		"WAS",
+		"Waterfall",
+		"WCF",
+		"Web Accessibility Initiative WAI",
+		"Web Applications",
+		"Web Content Accessibility Guidelines WCAG 2.1",
+		"Web Services",
+		"WebGL",
+		"Weblogic",
+		"Webpack",
+		"WebRTC",
+		"WebSocket",
+		"Websphere",
+		"Webstorm",
+		"Wercker",
+		"Wildfly",
+		"Windows Communication Foundation",
+		"Windows",
+		"WooCommerce",
+		"WordPress",
+		"WPF",
+		"WSDL",
+		"XML",
+		"XQuery",
+		"XSS",
+		"yarn",
+		"Yeoman",
+		"Yii"
+	]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="91" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 32" fill="none">
+  <style>
+    @keyframes animation{0%{fill:#de85ef;webkit-color:#de85ef}25%{fill:#f35999;webkit-color:#f35999}50%{fill:#f66165;webkit-color:#f66165}75%{fill:#f28952;webkit-color:#f28952}to{fill:#f4b94a;webkit-color:#f4b94a}}.fnzLogoBlack_svg__icon:hover{fill:currentColor;transition:all 2s ease-in-out;animation:animation 2s ease-in-out forwards infinite;webkit-animation:animation 2s ease-in-out forwards infinite}
+  </style>
+  <g class="fnzLogoBlack_svg__logo">
+    <path class="fnzLogoBlack_svg__icon" fill-rule="evenodd" clip-rule="evenodd" d="M59.831 0H91v32H59.831V0zm3.433 27.533h24.358v-2.03H63.264v2.03z" fill="currentColor"></path>
+    <path d="M15.584 4.867v2.797H3.16v7.217h11.77v2.797H3.16v10.126H0V4.867h15.584zM21.47 9.622h-.11c.164 2.07.164 3.637.164 7.217v10.965h-3.16V4.867h3.323l7.684 11.357c2.397 3.524 3.542 5.482 4.305 6.769h.108c-.163-2.07-.163-3.636-.163-7.217V4.867h3.16v22.881h-3.323l-7.684-11.356c-2.397-3.525-3.542-5.483-4.305-6.77z" fill="#000"></path>
+    <path d="M39.506 27.748v-2.797L52.093 7.608h-12.26V4.811h16.075v2.797L43.32 24.951h13.024v2.797H39.506z" fill="currentColor"></path>
+  </g>
+</svg>

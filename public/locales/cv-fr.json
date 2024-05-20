@@ -1,0 +1,78 @@
+{
+  "data": {
+    "Geneva, Switzerland": "Genève, Suisse",
+    "Swiss": "Suisse",
+    "living in partnership": "vit en concubinage",
+    "curiosity": "curiosité",
+    "creativity": "créativité",
+    "listening skills": "capacité d'écoute",
+    "autonomous": "autonome",
+    "responsible": "responsable",
+    "stress resistance": "resistance au stress",
+    "french": "français",
+    "english": "anglais",
+    "german": "allemand",
+    "sailing": "voile",
+		"snowboarding": "snowboard",
+		"travel": "voyage",
+		"history": "histoire",
+    "Computer Sciences": "Informatique",
+    "Living in Cotonou, travelling accross West Africa": "Installation à Cotonou, voyages en Afrique de l'Ouest",
+    "Microengineering Sciences": "Microtechnique",
+    "Scientific Swiss Maturity": "Maturité scientifique suisse",
+    "job": {
+      "title": "Développeur Web Full-Stack",
+      "description": "expérimenté en front-end **UX/UI** - **FinTech**"
+    },
+    "pdf": "CV Gilles Denervaud fr.pdf",
+    "summary": "Je développe des applications web depuis <years_of_experience> ans, m'adaptant aux dernières technologies, implémentant des serveurs back-end (en Java/Python/C/C++,...) et des interfaces front-end avec les frameworks Javascript. Mon expérience couvre l'entier du cycle de vie du logiciel, de la recherche au design, avec un sens prononcé pour l'esthétique, à l'implémentation, aux tests & DevOps. J'ai acquis une forte expertise dans les web apps riches, légères et hautement évolutives dans la finance/assurance (Apsys, Market Map, Olympic & Reuters) et la recherche  (Knowledge Graph). J'ai l'esprit d'équipe, suis enthousiaste, orienté résultat, à l'aise dans un environnement multiculturel.",
+    "roles": {
+      "hbp": {
+        "summary": {
+          "line_1": "Développement d'applications web & d'APIs RESTFull dans une architecture de microservices pour le Knowledge Graph (KG) pour la platforme de Neuroinformatics de HBP."
+        },
+        "description": {
+          "line_1": "Développement front-end et conception UI & UX de riches applications web, hautement interactives (Typescript, React, Redux, CSS, Semantic web, JSON-LD, OIDC, Keycloak).",
+          "line_2": "Développement d'APIs RESTful (Java Spring Boot, Python/FastAPI, ArangoDB, Elasticsearch/Kibana).",
+          "line_3": "DevOps (Docker, Gitlab CI, SonarQube, Harbor, ETL, Ansible/AWX, Sentry, Prometheus, Grafana, Slack)",
+          "line_4": "Support direct d'utilisateurs & interactions avec des scientifiques(Zammad, Slack).",
+          "line_5": "Coaching de développeurs moins expérimentés, établissement de standards de développement web."
+        }
+      },
+      "sungard": {
+        "description": {
+          "line_1": "Implémenté de riches applications web responsive (PWA), en utilisant des frameworks Javascript variés (AngularJS, Typescript, RiotJS, jQuery, Bootstrap, RequireJS, Polymer, Knockout, Backbone, Underscore, ExtJS, ASP.NetRazor, WebSocket).",
+          "line_2": "Développement (rapid prototyping) d'APIs RESTful (Node.js, MongoDB, PostgreSQL, MySQL).",
+          "line_3": "Élaboré (wireframes/sketches/mockups) & implémenté (AngularJS, jQuery, Javascript, HTML5, CSS3, Canvas, SVG) des composants web & des web app SPA financières pour iPhone & iPad.",
+          "line_4": "Lead technique, conseil, coaching & code review d'équipes offshore aux US, en Inde &  aux Philippines.",
+          "line_5": "Implémenté des services web back-end (Ruby on Rails) avec connecteurs vers Apsys & Market Map.",
+          "line_6": "Délégation auprès de banques privées, en charge de la configuration et des déploiements en production.",
+          "line_7": "Conduction des tests d'acceptation utilisateur (UAT)."
+        }
+      },
+      "nwa": {
+        "description": {
+          "line_1": "Implémentation front-end (Javascript, HTML, CSS, Telerik) d'applications web CRM.",
+          "line_2": "Délégation auprès de banques privées, chargé des configurations, du support, de mener les tests techniques & fonctionnels, des tests de validation et de non-régression, jusqu'à la mise en production.",
+          "line_3": "Coaching à distance & code review (ASP.Net, C#, Javascript) d'une équipe offshore basée à Singapour.",
+          "line_4": "En charge du support de niveau 3, assurant la compliance SLA."
+        }
+      },
+      "reuters": {
+        "description": {
+          "line_1": "Élaboré & implémenté (ASP.Net, C#, Javascript, HTML, CSS) des calculateurs financiers front-end.",
+          "line_2": "Codé des back-end en C++ (SOAP, WSDL, Oracle) gérant ~300k données financières (quasi temps réel).",
+          "line_3": "Coaché 6 développeurs d'une équipe offshore venu de Thaïlande et rédigé la documentation technique.",
+          "line_4": "Codé des scripts de packaging & de déploiement (batch & shell).",
+          "line_5": "Implémenté (Javascript, XML, XPath, Java) des web apps, streaming de data boursières en temps réel.",
+          "line_6": "Maintenance & evolution de services web de gestion de quotelists, écrits en C (~100 millions req/mois)."
+        }
+      },
+      "netpower": {
+        "description": {
+          "line_1": "Implémenté (Javascript, HTML, CSS, Python, PHP, Java) des portails web, en délégation."
+        }
+      }
+    }
+  }
+}

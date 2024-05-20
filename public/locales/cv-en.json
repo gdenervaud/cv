@@ -1,0 +1,78 @@
+{
+  "data": {
+    "Geneva, Switzerland": "Geneva, Switzerland",
+    "Swiss": "Swiss",
+    "living in partnership": "living in partnership",
+    "curiosity": "curiosity",
+    "creativity": "creativity",
+    "listening skills": "listening skills",
+    "autonomous": "autonomous",
+    "responsible": "responsible",
+    "stress resistance": "stress resistance",
+    "french": "french",
+    "english": "english",
+    "german": "german",
+    "sailing": "sailing",
+		"snowboarding": "snowboarding",
+		"travel": "travel",
+		"history": "history",
+    "Computer Sciences": "Computer Sciences",
+    "Living in Cotonou, travelling accross West Africa": "Living in Cotonou, travelling accross West Africa", 
+    "Microengineering Sciences": "Microengineering Sciences",
+    "Scientific Swiss Maturity": "Scientific Swiss Maturity",
+    "job": {
+      "title": "Full-Stack Software Engineer",
+      "description": "with emphasis on **UX/UI** Web development - **FinTech**"
+    },
+    "pdf": "CV Gilles Denervaud en.pdf",
+    "summary": "I have been developing web applications for <years_of_experience> years, always adapting myself to new technologies, implementing back-end servers (in Java/Python/C/C++,...) and front-end user interfaces using Javascript frameworks. My experience covers the entire software development life cycle from research to design, with a natural sense of aesthetics, implementation, testing & DevOps. I gained a strong expertise in lightweight, rich & large scale web applications in the finance/insurance industry (Apsys, Market Map, Olympic & Reuters) and research (Knowledge Graph). \nI'm results oriented, enthusiastic, a good team player and like working in multicultural teams.",
+    "roles": {
+      "hbp": {
+        "summary": {
+          "line_1": "Development of web applications & RESTFull APIs in a microservice architecture for the Knowledge Graph (KG) of the HBP Neuroinformatics platform."
+        },
+        "description": {
+          "line_1": "Frontend development and UI & UX design process of rich, highly interactive web applications (Typescript, React, Redux, CSS, Semantic web, JSON-LD, OIDC, Keycloak).",
+          "line_2": "Development of RESTful APIs (Java Spring Boot, Python/FastAPI, ArangoDB, Elasticsearch/Kibana).",
+          "line_3": "DevOps (Docker, Gitlab CI, SonarQube, Harbor, ETL, Ansible/AWX, Sentry, Prometheus, Grafana, Slack)",
+          "line_4": "Direct user support & interactions with scientific customers (Zammad, Slack).",
+          "line_5": "Coaching less experienced developers, establishing web development standards."
+        }
+      },
+      "sungard": {
+        "description": {
+          "line_1": "Implemented responsive rich client financial PWA apps, using various Javascript frameworks (AngularJS, Typescript, RiotJS, jQuery, Bootstrap, RequireJS, Polymer, Knockout, Backbone, Underscore, ExtJS, ASP.NetRazor, WebSocket).",
+          "line_2": "Developed (rapid prototyping) RESTful APIs (Node.js, MongoDB, PostgreSQL, MySQL).",
+          "line_3": "Designed (wireframes/sketches/mockups) & implemented (AngularJS, jQuery, Javascript, HTML5, CSS3, Canvas, SVG) web components and financial SPA web app for iPhone & iPad.",
+          "line_4": "Technical lead, consulting, coaching & code review of offshore teams in US, India & Philippines.",
+          "line_5": "Implemented back-end web services (Ruby on Rails) with connectors for Apsys & Market Map.",
+          "line_6": "Consulting in private banks, responsible of products configuration & deployments to production.",
+          "line_7": "Conducted user acceptance tests (UAT)."
+        }
+      },
+      "nwa": {
+        "description": {
+          "line_1": "Implemented front-end (Javascript, HTML, CSS, Telerik) of CRM web applications.",
+          "line_2": "Consulting in private banks providing customization & support, carried out technical & functional validation and non-regression tests, and deployments to production.",
+          "line_3": "Remote coaching & code review (ASP.Net, C#, Javascript) of an offshore team based in Singapore.",
+          "line_4": "In charge of level 3 support, ensuring SLA compliance."
+        }
+      },
+      "reuters": {
+        "description": {
+          "line_1": "Designed & implemented (ASP.Net, C#, Javascript, HTML, CSS) front-end financial calculators.",
+          "line_2": "Wrote core C++ servers (SOAP, WSDL, Oracle) handling ~300’000 financial instruments in near real-time.",
+          "line_3": "Coached 6 developers of an offshore team from Thailand and proving technical documentation.",
+          "line_4": "Wrote packaging & deployment scripts (batch & shell).",
+          "line_5": "Implemented (Javascript, XML, XPath, Java) rich client web app, streaming real-time market data.",
+          "line_6": "Maintenance & evolution of web services managing quotelists, written in C (~100 millions req/month)."
+        }
+      },
+      "netpower": {
+        "description": {
+          "line_1": "Implemented (Javascript, HTML, CSS, Python, PHP, Java) web portals for various clients, as consultant."
+        }
+      }
+    }
+  }
+}
