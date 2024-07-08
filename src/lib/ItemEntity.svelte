@@ -15,7 +15,7 @@
 	.company a,
 	.company a:hover,
 	.company a:visited {
-		color: #1093b8;
+		color: #4a8cd2;
 		font-weight: 500;
 	}
 

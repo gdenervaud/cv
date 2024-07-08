@@ -189,6 +189,7 @@
 			}
 		},
 		{
+			"skip": true,
 			"startDate": "Feb 2016",
 			"endDate": "Oct 2017",
 			"title": "Living in Cotonou, travelling accross West Africa"

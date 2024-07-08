@@ -33,6 +33,6 @@
 	}
 
 	.photo-badge svg circle {
-		stroke: #404040;
+		stroke: #47343c;
 	}
 </style>

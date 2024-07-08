@@ -55,6 +55,7 @@ export interface School {
 };
 
 export interface Experience {
+  skip?: boolean;
   startDate?: string;
   endDate?: string;
   title: string;

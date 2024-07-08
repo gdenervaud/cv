@@ -19,7 +19,7 @@
 		text-align: center;
 		font-size: 1.1rem;
 		font-style: italic;
-		background-color: #1093b8;
+		background-color: #4a8cd2;
 		line-height: 30px;
 		text-transform: capitalize;
 		z-index: 100;

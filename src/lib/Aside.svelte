@@ -32,8 +32,9 @@
 		width: 255px;
 		padding: 11px 15px 25px 25px;
 		/* background-color: rgba(64, 64, 64, .4); */
-		background-color: rgba(16, 147, 184, 0.05);
 		/* background-color: rgba(64, 64, 64, 0.15); */
+		/* background-color: rgba(16, 147, 184, 0.05); */
+		background-color: rgba(92, 144, 198, 0.1);
 	}
 
 	aside > .body :global(> div + div) {

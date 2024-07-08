@@ -1,13 +1,14 @@
 <script lang="ts">
 	import { t } from 'svelte-i18n';
-	import { calculateDuration } from './durationHelpers';
+//	import { calculateDuration } from './durationHelpers';
 	import Markdown from './Markdown.svelte';
 	const placeholder = '<summary>';
 	export let text: string|undefined = undefined;
-	export let careerStartDate: string;
-	$: localizedText = !text?placeholder:$t(`data.${text}`);
-	$: years = calculateDuration(new Date(careerStartDate), new Date()).years;
-	$: summary = localizedText.replace(/<years_of_experience>/g, years.toString());
+//	export let careerStartDate: string;
+// 	$: localizedText = !text?placeholder:$t(`data.${text}`);
+// 	$: years = calculateDuration(new Date(careerStartDate), new Date()).years;
+// 	$: summary = localizedText.replace(/<years_of_experience>/g, years.toString());
+	$: summary = !text?placeholder:$t(`data.${text}`);
 </script>
 
 <div class="summary">
@@ -28,7 +29,7 @@
 	}
 
 	.summary i {
-		color: #1093b8;
+		color: #4a8cd2;
 		line-height: 26px;
 		font-size: 24px;
 		transform: scale(0.8) translateY(2px);

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { t } from 'svelte-i18n';
-	import { calculateAgeToDate } from './durationHelpers';
+	//import { calculateAgeToDate } from './durationHelpers';
 	import Section from './Section.svelte';
 	import type { Contact } from '../types.ts';
 	export let contact: Partial<Contact> = {};
@@ -25,20 +25,20 @@
 		github: '<github>',
 		...contact
 	};
-	const age = birthday
-		? calculateAgeToDate(new Date(birthday), new Date()).toString()
-		: '<birthday>';
+	// const age = birthday
+	// 	? calculateAgeToDate(new Date(birthday), new Date()).toString()
+	// 	: '<birthday>';
 </script>
 
 <div class="contact">
 	<Section title={$t('contact')} icon="fa-user">
 		<div class="tel">
 			<i class="fa fa-phone" aria-hidden="true"></i><span style="font-style: italic;"
-				>{phone ? phone : $t('on demand')}</span
+				>{phone ? phone : $t('available upon request')}</span
 			>
 		</div>
 		<div class="email">
-			<a href="mailto:dengi@duck.com"
+			<a href={`mailto:${email}`} 
 				><i class="fa fa-envelope" aria-hidden="true"></i><span>{email}</span></a
 			>
 		</div>
@@ -60,15 +60,22 @@
 		</div>
 		<div class="info">
 			<div class="nationality"><span class="label">{$t('nationality')}</span> <span>{$t(`data.${nationality}`)}</span></div>
-			<div class="age">
+			<!-- <div class="age">
 				<span class="label">{$t('age')}</span><span
 					><span>{age}</span>, <span>{$t(`data.${maritalStatus}`)}</span>,
 					<span
 						>{nbOfChildren ? (nbOfChildren > 1 ? `${nbOfChildren} ${$t('children')}` : `1 ${$t('child')}`) : ''}</span
 					></span
 				>
-			</div>
+			</div> -->
 		</div>
+		<div>
+			<div class="references">
+				<span class="label">{$t('references')}</span><span style="font-style: italic;"
+				>{$t('available upon request')}</span
+			>
+		</div>
+	</div>
 	</Section>
 </div>
 
@@ -87,7 +94,7 @@
 	}
 
 	.contact :global(section .content .info) {
-		margin-top: 5px;
+		margin-top: 3px;
 	}
 
 	.contact :global(section .content .info > div + div) {
@@ -139,4 +146,10 @@
 	.contact :global(section .content .info .nationality .label + span:first-letter) {
 		text-transform: capitalize;
 	}
+
+	.contact :global(section .content div .references .label + span) {
+		display: inline-block;
+		padding-left: 6px;
+	}
+
 </style>

@@ -29,15 +29,15 @@
 		position: absolute;
 		border-radius: 30px;
 		text-align: center;
-		/* border: 15px solid #404040; */
+		/* border: 15px solid #47343c; */
 		/* border: 15px solid #013b7b; */
-		border: 15px solid #1093b8;
+		border: 15px solid #4a8cd2;
 	}
 
 	section > .title .badge .icon {
 		line-height: 26px;
 		font-size: 24px;
-		/* color: #1093b8; */
+		/* color: #4a8cd2; */
 		/* color: #b3b3b3; */
 		/* color: #cccccc; */
 		color: #efefff;
@@ -58,8 +58,8 @@
 		letter-spacing: 0.3rem;
     white-space: nowrap;
 		/* color: #014b9c; */
-		color: #1093b8;
-		/* color: #404040; */
+		color: #4a8cd2;
+		/* color: #47343c; */
 	}
 
 	section >.title .text:first-letter {

@@ -7,6 +7,7 @@
 	import ExperienceDescription from './ExperienceDescription.svelte';
 	export let list: Experience[] = [];
 	export let linkedin: string|undefined = undefined;
+	export let yearsOnly = false;
 	$: hasData = Array.isArray(list) && list.length > 0;
 	$: groups = splitExperiences(list);
 	$: more = linkedin?{
@@ -26,21 +27,25 @@
 					{#if Array.isArray(group)}
 						<ul>
 							{#each group as experience}
-								<li class={experience.description?'':'small'}>
-									<ExperienceComponent experience={experience} />
-								</li>
+								{#if !experience.skip}
+									<li class={experience.description?'':'small'}>
+										<ExperienceComponent experience={experience} yearsOnly={yearsOnly} />
+									</li>
+								{/if}
 							{/each}
 						</ul>
 					{:else}
 						<ul class="group">
 							<li class="group-title no-date">
-								<ExperienceComponent experience={group} />
+								<ExperienceComponent experience={group} yearsOnly={yearsOnly} />
 							</li>
 								{#if group.sections}
 									{#each group.sections.experiences as item}
-										<li class="group-section">
-											<ExperienceComponent experience={item} />
-										</li>
+										{#if !item.skip}
+											<li class="group-section">
+												<ExperienceComponent experience={item} yearsOnly={yearsOnly} />
+											</li>
+										{/if}
 									{/each}
 									<li class="no-date">
 										<ExperienceDescription text={group.sections.description} />
@@ -55,7 +60,7 @@
 
 <style>
 	.experience :global(section .content) {
-    border-left: 2px solid #404040;
+    border-left: 2px solid #47343c;
     padding-left: 10px;
     margin-left: 14px;
     transform: translateY(-4px);
@@ -131,7 +136,7 @@
     position: absolute;
     top: 7px;
     margin-left: -17px;
-    border: 6px solid #404040;
+    border: 6px solid #47343c;
     border-radius: 6px;
     line-height: 0px;
     content: "";

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getCareerStartDate } from './experienceHelpers'
+	//import { getCareerStartDate } from './experienceHelpers'
 	import Title from './Title.svelte';
 	import Summary from './Summary.svelte';
 	import OtherSkills from './OtherSkills.svelte';
@@ -8,16 +8,16 @@
 	import Certifications from './Certifications.svelte';
   import type { CV } from '../types.ts';
 	export let cv: CV;
-	let careerStartDate = getCareerStartDate(cv.experience);
+	//let careerStartDate = getCareerStartDate(cv.experience);
 </script>
 
 <div class="main">
 	<header>
 		<Title jobTitle={cv.jobTitle} jobDescription={cv.jobDescription} />
-		<Summary text={cv.summary} careerStartDate={careerStartDate} />
+		<Summary text={cv.summary} /> <!-- careerStartDate={careerStartDate} -->
 	</header>
 	<div class="body">
-		<Experiences list={cv.experience} linkedin={cv.linkedin} />
+		<Experiences list={cv.experience} linkedin={cv.linkedin} yearsOnly={true} />
 		<Education list={cv.education} />
 		<Certifications list={cv.certifications} />
 	</div>
